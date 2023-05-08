@@ -1,0 +1,78 @@
+.service {
+    font-size: 20px;
+    color: #af1010;
+    justify-content: center;
+    display: flex;
+    margin-top: 7vh;
+    align-content: center;
+
+}
+
+.service-section {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    color: #fff;
+}
+
+.service-section h2 {
+    text-align: top;
+    justify-content: top;
+    align-items: center;
+    position: absolute;
+    font-weight: bold;
+    top: 40px;
+    margin: 3px 3px;
+    color:white;
+    display: flex;
+    font-size: 18px;
+    padding: 3px;
+    
+}
+
+.service-section p {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height: 25px;
+    margin-bottom: 3px;
+    color:white;
+    font-size: 18px;
+    padding: 9px;
+    bottom: 0px;
+}
+
+.service-box {
+    width: 200px;
+    border-radius: 20px;
+    height: 200px;
+    text-decoration: none;
+    background-color: rgb(171, 14, 14);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.profile img {
+    width: 180px;
+    border-radius: 180px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+   
+    
+}
+
+
+/* MOBILE VERSION*/
+
+@media only screen and (max-width: 784px) {
+
+   
+}
+

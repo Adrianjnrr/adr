@@ -1,0 +1,184 @@
+body{
+    background-image: url(/image/akk.jpg);
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    color: #fff;
+}
+
+
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    color: #fff;
+}
+
+
+.main-header{
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+
+.header-nav-bar li {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    align-items: center;
+    color: #000;
+    display: inline-block;
+    height: 100%;
+    text-decoration: none;
+}
+.header-nav-bar {
+    width: fit-content;
+    height:200%;
+    margin-top: 0%;
+   }
+
+
+   .header-nav-bar li{
+    width: 50px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 20px;
+    float: right; 
+    
+}
+
+.header-nav-bar ul{
+    margin-right: 20px;
+
+}
+
+
+.header-nav-bar li a {
+    list-style: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+
+.folio ul{
+    margin-left: 10px;
+    display: flex;
+}
+strong{
+    color:red;
+}
+.folio a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    list-style: none;
+    color: #fff;
+
+}
+   
+.header-nav-bar li a:hover{
+    color: #c11111;
+    transition: 0.15ms;
+}
+
+
+.skills{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 30px 0;
+    line-height: 50px;
+}
+
+.index-about-skill{
+    width: 40%;
+    align-items: center;
+    display: block;
+    padding: 10px 10px;
+    flex-basis: 350px;
+    
+}
+.index-about-skill-bar{
+    align-items: center;
+ width: 100%;
+height: 10px;
+border: 3px solid rgb(110, 22, 9);
+
+ }
+ .index-about-skill-bar-fill {
+    height: 100%;
+    background-color: rgb(179, 24, 13);
+ }
+ .HtmlCss{
+    width: 90%;
+ }
+
+ .index-about-skill p{
+    color: #fff;
+ }
+ .Html{
+    width: 80%;
+ }
+ .Ap{
+    width: 70%;
+ }
+ .Js{
+    width: 60%;
+ }
+ .py{
+    width: 40%;
+ }
+ .A{
+    width: 60%;
+ }
+
+ .profile img {
+    width: 180px;
+    border-radius: 180px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    
+.skills{
+   display: none;
+}
+
+.index-about-skill{
+   display: none;
+}
+
+.header-nav-bar li {
+    display: none;
+}
+
+}
+
