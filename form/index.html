@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <section class="wrapper-main">
+      <form action="g.html" method="post">
+        <label for="fistname">firstname</label>
+        <br />
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="firstname"
+          value=""
+        />
+        <br /><br />
+        <label for="message">write a meaasge</label>
+        <br />
+        <textarea
+          name="meaasge"
+          id="message"
+          placeholder="write a message"
+        ></textarea>
+        <br /><br />
+        <label>what is your eyecolor</label>
+        <br /><br />
+        <input type="radio" name="eyecolor" id="eyecolor" />
+        <label for="eyecolor">blue</label>
+        <input type="radio" name="eyecolor" id="eyecolor" />
+        <label for="eyecolor">brown</label>
+        <input type="radio" name="eyecolor" id="eyecolor" />
+        <label for="eyecolor">yellow</label>
+        <br /><br />
+        <label>what pet do you have</label>
+        <br /><br />
+        <input type="checkbox" name="petdog" id="dog" value="dog" />
+        <label for="petdog">dog</label>
+        <input type="checkbox" name="petcat" id="petcat" value="cat" />
+        <label for="petcat">cat</label>
+        <input type="checkbox" name="petfish" id="petfish" value="fish" />
+        <label for="petfish">fish</label>
+        <br /><br />
+        <label>what car do you have</label>
+        <br /><br />
+        <select name="cartype" id="cartype">
+          <option value="None">None</option>
+          <option value="audi">audi</option>
+          <option value="toyota">toyota</option>
+          <option value="bmw">bmw</option>
+        </select>
+        <br /><br />
+        <button type="send data" value="send data">send data</button>
+      </form>
+    </section>
+  </body>
+</html>
